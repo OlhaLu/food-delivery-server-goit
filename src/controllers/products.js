@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-
 const productsController = require('../models/products');
 
 module.exports = function(req, res) {
